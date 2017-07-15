@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>File Metadata Microservice</title>
+      <link rel="shortcut icon" href="http://markworks.net/wp-content/uploads/fbrfg/favicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <h1>Upload a file to view its size.</h1>
+         <form action="/file-size" method="post" enctype="multipart/form-data">
+          <input type="file" name="file">
+          <input type="submit">
+        </form>
+      </div>
+   </body>
+
+</html>
